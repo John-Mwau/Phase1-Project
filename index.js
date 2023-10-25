@@ -1,20 +1,4 @@
-/* 
 
-fetch ('https://www.themealdb.com/api/json/v1/1/search.php?f=a')
-.then(res=> res.json())
-.then(data=> console.log(data))
- */
-/*const getAPIData = async () => {
-    //Base url containing user query,appId & appKey
-    const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${appId}&app_key=${appKey}&from=0&to=20`;
-
-    const response = await fetch(baseURL);
-    const data = await response.json();
-    //hits is a key of search query & it should contain 20 recipe items
-    createHTML(data.hits);
-    console.log(data);
-  };
-  */
   document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector("form");
     const displayResultDiv = document.querySelector(".search-result");
