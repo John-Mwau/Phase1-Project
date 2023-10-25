@@ -1,0 +1,23 @@
+@import url("bootstrap.css");
+body{
+    background-color: beige;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+}
+input[type=text]{
+    width: 350px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+.search-result {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+  }
