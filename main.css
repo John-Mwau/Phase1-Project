@@ -1,15 +1,25 @@
 @import url("bootstrap.css");
 body{
-    background-color: hsla(223, 48%, 50%, 0.94);
+    background-image: url(images/delicacy.jpg);
 }
 .header{
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  margin: 5px 10px
+}
+.header h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-left: 80px;
 }
 .header_img img{
-  height: 50px;
-  width: 80px;
+  height: 100px;
+  width: 200px;
+ clip-path:circle();
+}
+.description {
+  font-size: 22px;
+  text-align: center;
 }
 .container{
  display: flex;
