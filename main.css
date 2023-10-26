@@ -1,6 +1,6 @@
 @import url("bootstrap.css");
 body{
-    background-image: url(images/delicacy.jpg);
+    background-color: hsla(223, 48%, 50%, 0.94);
 }
 .container{
  display: flex;
