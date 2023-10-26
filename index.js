@@ -16,7 +16,7 @@
   
     const getAPIData = async () => {
       //Base url containing user query,appId & appKey
-      const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${appId}&app_key=${appKey}&from=0&to=20`;
+      const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${appId}&app_key=${appKey}&from=0&to=45`;
   
       const response = await fetch(baseURL);
       const data = await response.json();
