@@ -43,3 +43,9 @@ input[type="submit"] {
     grid-gap: 10px;
     grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
   }
+  .item{
+    font-size: 18px;
+  }
+  .item a{
+    text-decoration: none;
+  }
