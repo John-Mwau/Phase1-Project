@@ -1,4 +1,4 @@
-@import url("bootstrap.css");
+@import url("/css/bootstrap.css");
 body{
  margin: 0px;
  padding: 0px;
@@ -27,10 +27,11 @@ body{
  justify-content: center;
  align-items: center;
  margin-top: 50px;
+ align-content: center;
 }
 input[type=text]{
     width: 400px;
-    height: 20px;
+    height: 40px;
     font-size: 20px;
     text-align: center;
     margin: 10px;
