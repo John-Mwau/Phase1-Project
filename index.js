@@ -25,12 +25,23 @@
       console.log(data);
     };
     // function for generating html for display
+    const createHTML =(results) =>{
+      let createdHTML =""
+      results.map((result) => {
+        createdHTML +=`
+        <div class= "item">
+        <img src = "${result.recipe.image}" alt="img">
+        `
+      })
+
+    }
+    /*
     const createHTML = (results) => {
       let createdHTML = "";
       results.map((result) => {
         createdHTML += `
         <div class="item">
-          <img src="${result.recipe.image}" alt="img">
+          <img src="${result.recipe.image}" alt="img"> 
           <div class="flex-container">
             <h1 class="title">${result.recipe.label}</h1>
             <a class="checkout-btn" target="_top" href="${
@@ -44,6 +55,7 @@
       });
       displayResultDiv.innerHTML = createdHTML;
     };
+    */
   });
 function dispalyitems (){
   let y=10;
