@@ -33,9 +33,12 @@
         <div class= "item">
         <img src = "${result.recipe.image}" alt="img">
         <div class= "flex-container">
-        <h1 class= "title">${result.recipe.label}</h1>
+        <h2 class= "title">${result.recipe.label}</h2>
         <a class="checkout-btn" target= "_top" href="${result.recipe.url}">Checkout Receipe</a>
         </div>
+        <p class="item-data">Calories: ${result.recipe.calories.toFixed(
+          2
+        )} kcals</p>
         <p class="item-data">Cuisine type: ${result.recipe.cuisineType}</p>
           <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
         </div>
