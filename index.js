@@ -45,4 +45,7 @@
       displayResultDiv.innerHTML = createdHTML;
     };
   });
+function dispalyitems (){
+  let y=10;
+}
   
